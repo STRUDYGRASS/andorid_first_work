@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UC4">
+    <TableLayout
+        android:layout_height="150dp">
+    </TableLayout>
+    <TableLayout>
+        <TableRow>
+            <Button
+                android:id="@+id/btn_4_1"
+                android:text="@string/btn_4_1"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/btn_4_2"
+                android:text="@string/btn_4_2"
+                android:layout_width="wrap_content"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:stretchColumns="0"
+        android:layout_margin="20dp">
+        <TableRow>
+            <Button
+                android:id="@+id/btn_4_3"
+                android:text="@string/btn_4_3"
+                />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_margin="20dp">
+        <TableRow>
+        <Button
+            android:id="@+id/btn_4_4"
+            android:text="@string/btn_4_4"
+            />
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_height="250dp"></TableLayout>
+
+    <TableLayout
+        android:layout_gravity="bottom"
+        android:stretchColumns="0">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_back"
+                android:text="@string/back" />
+        </TableRow>
+    </TableLayout>
+</TableLayout>
